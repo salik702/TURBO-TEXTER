@@ -9,6 +9,11 @@ Turbo Texter is a simple yet powerful React-based text utility web app. It allow
 - 🧼 Clear Text  
 - 🔵 Theme Toggle (Purple / Blue)
 
+## 🖼️ Preview
+
+![App Screenshot](preview.png)
+
+
 ## 🚀 Features
 
 - **Real-time Text Summary:**  

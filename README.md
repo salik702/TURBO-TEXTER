@@ -1,43 +1,42 @@
 # ⚡ TURBO TEXTER ⚡
 
-Turbo Texter is a simple yet powerful React-based text utility web app. It allows users to analyze and manipulate text with various tools including:
+Turbo Texter is a powerful and simple React-based text utility app. It helps you transform and analyze your text instantly with useful tools and theme switching.
 
-- 🔠 Convert to Uppercase / Lowercase  
-- 📝 Capitalize First Word  
-- 📋 Copy Text to Clipboard  
-- 🧹 Remove Extra Spaces  
-- 🧼 Clear Text  
-- 🔵 Theme Toggle (Purple / Blue)
+👉 **[Click here for Live Preview](https://salik702.github.io/TURBO-TEXTER/)**
+
+---
 
 ## 🖼️ Preview
 
 ![App Screenshot](preview.png)
 
+---
 
 ## 🚀 Features
 
-- **Real-time Text Summary:**  
-  Displays word count, character count, and estimated reading time.
+- 🔠 Convert to Uppercase / Lowercase
+- 📝 Capitalize First Word
+- 📋 Copy Text to Clipboard
+- 🧹 Remove Extra Spaces
+- 🧼 Clear Text Box
+- 🔵 Theme Toggle (Blue / Purple)
+- 📊 Text Summary (Words, Characters, Reading Time)
+- 👁️ Live Preview of Text
 
-- **Text Transformations:**  
-  Easy buttons to change case, clean up, or manipulate input text.
-
-- **Live Preview:**  
-  Shows the output instantly below the input box.
-
-- **Dark Mode with Theme Toggle:**  
-  Switch between Blue and Purple themes.
+---
 
 ## 🛠️ Tech Stack
 
-- React
-- HTML / CSS / JavaScript
-- Bootstrap (for styling)
+- **React**
+- HTML, CSS, JavaScript
+- Bootstrap
 
-## 📦 Installation
+---
+
+## 📦 Installation (For Local Setup)
 
 ```bash
-git clone https://github.com/your-username/turbo-texter.git
-cd turbo-texter
+git clone https://github.com/salik702/TURBO-TEXTER.git
+cd TURBO-TEXTER
 npm install
 npm start

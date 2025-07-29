@@ -71,22 +71,22 @@ export default function TextForm(props) {
         </div>
 
         {/* Buttons using dynamic styles from props.btnStyle */}
-        <button style={props.btnStyle} className="btn mx-1" onClick={handleUpClick}>
+        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={handleUpClick}>
           Convert to UpperCase
         </button>
-        <button style={props.btnStyle} className="btn mx-1" onClick={handleLoClick}>
+        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={handleLoClick}>
           Convert to LowerCase
         </button>
-        <button style={props.btnStyle} className="btn mx-1" onClick={CapAllFWords}>
+        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={CapAllFWords}>
           Capitalize First Word
         </button>
-        <button style={props.btnStyle} className="btn mx-1" onClick={copyText}>
+        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={copyText}>
           Copy Text
         </button>
-        <button style={props.btnStyle} className="btn mx-1" onClick={removeSpaces}>
+        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={removeSpaces}>
           Remove Spaces
         </button>
-        <button style={props.btnStyle} className="btn mx-1" onClick={ClearonClick}>
+        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={ClearonClick}>
           Clear
         </button>
       </div>

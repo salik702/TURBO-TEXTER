@@ -71,22 +71,52 @@ export default function TextForm(props) {
         </div>
 
         {/* Buttons using dynamic styles from props.btnStyle */}
-        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={handleUpClick}>
+        <button
+          disabled={text.length === 0}
+          style={props.btnStyle}
+          className="btn mx-1 my-1"
+          onClick={handleUpClick}
+        >
           Convert to UpperCase
         </button>
-        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={handleLoClick}>
+        <button
+          disabled={text.length === 0}
+          style={props.btnStyle}
+          className="btn mx-1 my-1"
+          onClick={handleLoClick}
+        >
           Convert to LowerCase
         </button>
-        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={CapAllFWords}>
+        <button
+          disabled={text.length === 0}
+          style={props.btnStyle}
+          className="btn mx-1 my-1"
+          onClick={CapAllFWords}
+        >
           Capitalize First Word
         </button>
-        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={copyText}>
+        <button
+          disabled={text.length === 0}
+          style={props.btnStyle}
+          className="btn mx-1 my-1"
+          onClick={copyText}
+        >
           Copy Text
         </button>
-        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={removeSpaces}>
+        <button
+          disabled={text.length === 0}
+          style={props.btnStyle}
+          className="btn mx-1 my-1"
+          onClick={removeSpaces}
+        >
           Remove Spaces
         </button>
-        <button style={props.btnStyle} className="btn mx-1 my-1" onClick={ClearonClick}>
+        <button
+          disabled={text.length === 0}
+          style={props.btnStyle}
+          className="btn mx-1 my-1"
+          onClick={ClearonClick}
+        >
           Clear
         </button>
       </div>
@@ -94,7 +124,8 @@ export default function TextForm(props) {
       <div className="container my-3" style={textColor}>
         <h2>Your text summary</h2>
         <p>
-          {text.split(/\s+/).filter((word) => word !== '').length} words and {text.length} characters
+          {text.split(/\s+/).filter((word) => word !== '').length} words and{' '}
+          {text.length} characters
         </p>
         <p>
           {(
@@ -103,7 +134,7 @@ export default function TextForm(props) {
           Minutes Read
         </p>
         <h3>Preview</h3>
-        <p>{text.length > 0 ? text : 'Enter some text to preview here'}</p>
+        <p>{text.length > 0 ? text : 'Nothing to preview!'}</p>
       </div>
     </>
   );
